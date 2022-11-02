@@ -1,0 +1,315 @@
+.nav-bar{
+    height: 50px;
+    width: 100%;
+    background-color: #181818;
+    position: fixed;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.MYLOGO img{
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+}
+
+.NAV-LINKS ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.NAV-LINKS ul li{
+    list-style-type: none;
+    font-family: 'Microsoft Sans Serif';
+    font-size: 14px;
+    margin-top: 14px;
+    margin-left: 8px;
+}
+
+.NAV-LINKS ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.NAV-LINKS ul li a:hover{
+    color: #0ff;
+}
+
+.bg-photo{
+    height: 100vh;
+    background: url(assets/img/bg-02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepagetext{
+    padding: 120px 0 0 80px;
+    color: #fff;
+}
+
+.homepagetext h1{
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 65px;
+}
+
+.homepagetext p{
+    font-family: 'Microsoft Sans Serif';
+    color: #8d8d8d;
+}
+
+.cntct{
+    height: 40px;
+    width: 180px;
+    position: absolute;
+    color: #0ff;
+    background-color: transparent;
+    border: 1px solid #0ff;
+    letter-spacing: 4px;
+    font-size: 14px;
+    z-index: 3px;
+}
+
+.cntct span{
+    height: 40px;
+    width: 180px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 8px;
+}
+
+.cntct span:hover{
+    z-index: 4px;
+    color: #000;
+}
+
+.cntct:hover{
+    background-color: #0ff;
+    z-index: 2px;
+    transition: 1s;
+}
+
+/* ABOUT */
+.about{
+    height: 80vh;
+    background-color: #2a2a2a;
+}
+
+.text-about{
+    color: #fff;
+    padding: 70px 0 0 80px;
+}
+
+.text-about p{
+    font-size: 18px;
+}
+
+.about-me{
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 55px;
+    color: #0ff;
+}
+/* about end */
+
+/* services start */
+.myservices{
+    height: 100vh;
+    background-color: #2a2a2a;
+    overflow: hidden;
+}
+
+.text-services{
+    padding: 70px 0 0 80px;
+}
+
+.h-service{
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 55px;
+    color: #0ff;
+}
+
+.myservices-box{
+    height: auto;
+    width: 80%;;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    overflow: hidden;
+    column-gap: 30px;
+    row-gap: 35px;
+    padding: 35px;
+}
+
+.myservices-box h2{
+    color: #fff;
+    font-size: 25px;
+}
+
+.myservices-box p{
+    color: #b2b2b2;
+    font-size: 14px;
+}
+
+.development{
+    padding: 40px 0px 40px 0;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.seo-optimization{
+    padding: 30px 0px 30px 0;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+
+}
+
+.database{
+    padding: 30px 0 30px 0;   
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+
+}
+
+.data-security{
+    padding: 30px 0 30px 0;  
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.development:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 0 10px #0ff;
+}
+
+.seo-optimization:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 0 10px #0ff;
+}
+
+.database:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 0 10px #0ff;
+}
+
+.data-security:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 0 10px #0ff;
+}
+/* services end */
+
+/* portfolio start */
+
+.myportfolio{
+    height: 80vh;
+    background-color: #1d1d1d;
+    overflow: hidden;
+}
+
+.port-text{
+    padding: 70px 0 0 100px;
+}
+
+.port-text h1{
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 55px;
+    color: #0ff;
+}
+
+.port-text p{
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: .5px;
+}
+/* portfolio start */
+
+/* contact start */
+
+.contact-section{
+    height: 100vh;
+    background-color: #1d1d1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fakecontact{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form{
+    max-width: 700px;
+    margin-right: 50px;
+}
+
+.contact-form h1{
+    font-family: 'Franklin Gothic Heavy';
+    color: #0ff;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.contact-form .text-box{
+    background: #2b2b2b;
+    color: #fff;
+    border: none;
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 15px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.contact-form .text-box:first-child{
+    margin-right: 15px;
+}
+
+.contact-form textarea{
+    background: #2b2b2b;
+    border: none;
+    width: 100%;
+    min-height: 200px;
+    max-height: 400px;
+    margin-bottom: 20px;
+    padding: 12px;
+    color: #fff;
+}
+
+.send-btn{
+    height: 47px;
+    width: 200px;
+    float: right;
+    background: transparent;
+    color: #0ff;
+    font-weight: 100;
+    letter-spacing: 1px;
+    border: 1px solid #0ff;
+}
+
+.send-btn:hover{
+    color: #000;
+    background: #0ff;
+    transition: .5s;
+}
+
+.contact-info{
+    color: #8d8d8d;
+    flex: 1;
+    max-width: 500px;
+    line-height: 65px;
+    font-size: 24px;
+}
+
+.contact-info i{
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+/* contact end */
